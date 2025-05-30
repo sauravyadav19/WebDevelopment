@@ -98,3 +98,36 @@
 }
 
 
+/* -------------Fixed----------- */
+#Fixed #first{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#Fixed #second{
+    height:150px;
+    width:150px;
+    background-color: #bde0fe;
+    display:inline-block;
+    margin: 10px 20px; 
+    position: Fixed;
+    top:10px;
+    left:50%
+    
+
+
+
+}
+
+#Fixed #third{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display:inline-block;
+     margin: 10px 20px;
+}
+
