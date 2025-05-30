@@ -115,6 +115,8 @@
     display:inline-block;
     margin: 10px 20px; 
     position: Fixed;
+    /*this is similar to that of absoulute, removed from the doucment's overall flow and positoned based on html's body's position
+    and get fixed there meaning if we scroll it comes with us*/
     top:10px;
     left:50%
     
