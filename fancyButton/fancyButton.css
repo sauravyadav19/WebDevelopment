@@ -1,0 +1,13 @@
+html,body{
+    /*here we  have given body and html both a height of 
+    100% becaue our section needs it  for it to be 100%
+    of the page; body does not have a height by default*/
+    margin:0px;
+    height:100%;
+}
+
+section{
+    height:100%;
+    width:100%;
+    background-color:#151b29;
+}
