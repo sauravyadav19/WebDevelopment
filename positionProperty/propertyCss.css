@@ -2,7 +2,7 @@
 #first{
     height:150px;
     width:150px;
-    background-color: red;
+    background-color: #ffafcc;
     display: inline-block;
     margin: 10px
 }
@@ -10,7 +10,7 @@
 #second{
     height:150px;
     width:150px;
-    background-color: green;
+    background-color: #bde0fe;
     display:inline-block;
     margin: 10px 20px; 
 }
@@ -18,7 +18,7 @@
 #third{
     height:150px;
     width:150px;
-    background-color: blue;
+    background-color: #ffafcc;
     display:inline-block;
      margin: 10px 20px;
 }
