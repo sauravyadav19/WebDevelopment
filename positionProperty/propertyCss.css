@@ -1,21 +1,27 @@
 
-#first{
+#static #first{
     height:150px;
     width:150px;
     background-color: #ffafcc;
     display: inline-block;
-    margin: 10px
+    margin: 10px;
+    
 }
 
-#second{
+#static #second{
     height:150px;
     width:150px;
     background-color: #bde0fe;
     display:inline-block;
     margin: 10px 20px; 
+    position: static; 
+    /* no effect since the position is set to be static  */
+    top:200px;
+    bottom: 200px  
+    /* top right bottom left will have no effect */
 }
 
-#third{
+#static #third{
     height:150px;
     width:150px;
     background-color: #ffafcc;
