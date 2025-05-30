@@ -1,0 +1,24 @@
+
+#first{
+    height:150px;
+    width:150px;
+    background-color: red;
+    display: inline-block;
+    margin: 10px
+}
+
+#second{
+    height:150px;
+    width:150px;
+    background-color: green;
+    display:inline-block;
+    margin: 10px 20px; 
+}
+
+#third{
+    height:150px;
+    width:150px;
+    background-color: blue;
+    display:inline-block;
+     margin: 10px 20px;
+}
