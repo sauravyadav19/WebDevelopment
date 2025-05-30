@@ -51,7 +51,7 @@
     right: 30px;
     top:10px
 
-    /* now the new div would be offset a little right(shift toward left) and and top(meaning shift towards bottom)  */
+    /* now the "new" div would be offset 30px right(shift towards left) and a 10px top(meaning shift towards bottom)  */
 }
 
 #Relative #third{
