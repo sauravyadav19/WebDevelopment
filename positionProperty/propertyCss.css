@@ -61,3 +61,40 @@
     display:inline-block;
      margin: 10px 20px;
 }
+
+
+
+/* -------------Absolute----------- */
+#Absolute #first{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#Absolute #second{
+    height:150px;
+    width:150px;
+    background-color: #bde0fe;
+    display:inline-block;
+    margin: 10px 20px; 
+    position: Absolute; 
+    /* it removes the div from its usual flow and and whatever property(top,left,right) 
+    we are going to apply will be done based on the parent's position  element its contained in  */
+    top:10px
+
+
+
+}
+
+#Absolute #third{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display:inline-block;
+     margin: 10px 20px;
+}
+
+
