@@ -11,3 +11,13 @@ section{
     width:100%;
     background-color:#151b29;
 }
+
+button{
+    /*here we have made the position meaning the thing is removed from the regular flow of the doucment
+    and is position based on how the closest parent's position property is set and if its not set (which is the case here as
+    "section" has no property of position) button would be positioned according to the body*/
+    position: absolute;
+    /*center*/
+    top: 50%;
+    left:50%;
+}
