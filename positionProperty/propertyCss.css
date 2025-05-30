@@ -21,7 +21,40 @@
     /* top right bottom left will have no effect */
 }
 
+
 #static #third{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display:inline-block;
+     margin: 10px 20px;
+}
+
+/* -------------Relative----------- */
+#Relative #first{
+    height:150px;
+    width:150px;
+    background-color: #ffafcc;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#Relative #second{
+    height:150px;
+    width:150px;
+    background-color: #bde0fe;
+    display:inline-block;
+    margin: 10px 20px; 
+    position: Relative; 
+    /* offset to  sepcified position (left,right, top , bottom) Relative to itself  */
+    right: 30px;
+    top:10px
+
+    /* now the new div would be offset a little right(shift toward left) and and top(meaning shift towards bottom)  */
+}
+
+#Relative #third{
     height:150px;
     width:150px;
     background-color: #ffafcc;
